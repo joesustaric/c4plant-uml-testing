@@ -1,0 +1,316 @@
+{
+    "data": {
+      "boxes": [
+        {
+          "name": "Corporate Support",
+          "type": "Domain",
+          "boxes": [
+            {
+              "name": "Workforce",
+              "type": "Subdomain",
+              "boxes": [
+                {
+                  "name": "Recruitment",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Performance Management",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Learning and Development",
+                  "type": "Capability"
+                }
+              ]
+            },
+            {
+              "name": "Finance",
+              "type": "Subdomain",
+              "boxes": [
+                {
+                  "name": "Budgeting and Forecasting",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Banking",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Procurement",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Capital Management",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Receipting",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Financial Accounting",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Payments",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Payroll",
+                  "type": "Capability"
+                }
+              ]
+            },
+            {
+              "name": "Digital Workspace",
+              "type": "Subdomain",
+              "boxes": [
+                {
+                  "name": "Collaboration",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Office Productivity",
+                  "type": "Capability"
+                }
+              ]
+            },
+            {
+              "name": "Legal and Risk",
+              "type": "Subdomain",
+              "boxes": [
+                {
+                  "name": "Risk Reporting",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Risk Advisory",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Fraud",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Contract Review",
+                  "type": "Capability"
+                }
+              ]
+            },
+            {
+              "name": "Facilities",
+              "type": "Subdomain",
+              "boxes": []
+            }
+          ]
+        },
+        {
+          "name": "Marketing and Loyalty",
+          "type": "Domain",
+          "boxes": [
+            {
+              "name": "Marketing",
+              "type": "Subdomain",
+              "boxes": [
+                {
+                  "name": "Segmentation",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Analytics",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Content Strategy",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Marketing Automation",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Reporting",
+                  "type": "Capability"
+                }
+              ]
+            },
+            {
+              "name": "Brand and Loyalty",
+              "type": "Subdomain",
+              "boxes": [
+                {
+                  "name": "Event Management",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Advertising",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Competitor Analysis",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Market Research",
+                  "type": "Capability"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insurance Claims",
+          "type": "Domain",
+          "boxes": [
+            {
+              "name": "Claims Fulfillment",
+              "type": "Subdomain",
+              "boxes": [
+                {
+                  "name": "Claims Supply Chain Management",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Claims Payments",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Goods and Services Fulfillment",
+                  "type": "Capability"
+                }
+              ]
+            },
+            {
+              "name": "Claims Administration",
+              "type": "Subdomain",
+              "boxes": [
+                {
+                  "name": "Claims Tracking",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Claims Management",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Claims Lodgement",
+                  "type": "Capability"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Data and Analytics",
+          "type": "Domain",
+          "boxes": []
+        },
+        {
+          "name": "Distribution",
+          "type": "Domain",
+          "boxes": [
+            {
+              "name": "Policy",
+              "type": "Subdomain",
+              "boxes": [
+                {
+                  "name": "Origination",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Renewals",
+                  "type": "Capability"
+                }
+              ]
+            },
+            {
+              "name": "Pricing and Underwriting",
+              "type": "Subdomain",
+              "boxes": [
+                {
+                  "name": "Pricing",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Underwriting",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Credit Risk Management",
+                  "type": "Capability"
+                }
+              ]
+            },
+            {
+              "name": "Insurance Accounting",
+              "type": "Subdomain",
+              "boxes": [
+                {
+                  "name": "Insurance Billing",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Reinsurance",
+                  "type": "Capability"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Experience",
+          "type": "Domain",
+          "boxes": [
+            {
+              "name": "Digital",
+              "type": "Subdomain",
+              "boxes": [
+                {
+                  "name": "Customer Self-Service",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Channel Services",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Content Management",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Experience Optimisation",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Digital Asset Management",
+                  "type": "Capability"
+                }
+              ]
+            },
+            {
+              "name": "Customer Contact Centre",
+              "type": "Subdomain",
+              "boxes": [
+                {
+                  "name": "Telephony",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Knowledge Management",
+                  "type": "Capability"
+                },
+                {
+                  "name": "Web Chat",
+                  "type": "Capability"
+                },
+                {
+                  "name": "CRM",
+                  "type": "Capability"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
