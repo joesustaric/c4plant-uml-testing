@@ -39,12 +39,16 @@ class Puml
 
 end
 
+puts "Parsing sample.json"
+
 json_from_file = File.read("sample.json")
 parsed_json = JSON.parse(json_from_file)
 
-boxes = parsed_json["data"]["boxes"]
+puts "Writing sample.puml"
 
-puml = Puml.new boxes
+puml = Puml.new parsed_json["data"]["boxes"]
 puml.print "sample.puml"
 
+puts "Executing plantuml"
 
+`cat sample.puml | docker run --rm -i think/plantuml -tpng > sample.png`
