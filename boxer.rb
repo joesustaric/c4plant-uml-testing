@@ -51,4 +51,5 @@ puml.print "sample.puml"
 
 puts "Executing plantuml"
 
-`cat sample.puml | docker run --rm -i think/plantuml -tpng > sample.png`
+`cat sample.puml | docker run --rm -i think/plantuml -tsvg > sample.svg`
+`open sample.svg`
