@@ -1,0 +1,12 @@
+@startuml Example 2
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
+
+Person(user, "Customer")
+System_Boundary(c1, "Sample System") {
+    Container(web_app, "Web Application", "Ruby, Rails", "Buy Stuff")
+}
+System(login, "Log in")
+
+Rel(user, web_app, "Uses", "HTTPS")
+Rel(web_app, login, "Authenticates credentials", "HTTPS")
+@enduml

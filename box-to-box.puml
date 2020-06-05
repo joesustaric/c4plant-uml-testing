@@ -1,0 +1,9 @@
+@startuml box-to-box
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
+
+Container(box1, "Thing 1", "Box", "Box 1")
+Container(box2, "Thing 2", "Box", "Box 2")
+
+
+Rel(box1, box2, "depends on", "http")
+@enduml
