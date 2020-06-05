@@ -6,8 +6,11 @@ Boundary(foo, "Finance", "Domain") {
         System(system1, "System 1")
     }
     Boundary(s2, "Subdomain2", "Subdomain") {
-        System(system2, "System 2")
+        System(system2, "System 2", "does something amazing")
+        System(system3, "System 3")
     }
 }
+'Rel(system1, system2, "notifies", "HTTPS")
+'Rel(system2, system3, "files")
 
 @enduml
